@@ -1,0 +1,96 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  max-width: 1280px;
+}
+
+.nav {
+  position: absolute;
+  width: 1326px;
+  height: 50px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(24, 24, 24);
+}
+
+.logo {
+  /* background-color: blue; */
+  display: flex;
+  height: 20px;
+  width: 300px;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 5px;
+  border-radius: 5px;
+  color: aliceblue;
+  font-weight: 900;
+  font-size: 24px;
+  background-color: rgb(185, 9, 9);
+}
+
+input {
+  margin: 0px 10px;
+  width: 100p;
+  height: 25px;
+  padding-left: 15px;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+.tombol {
+  /* background-color: #000; */
+  height: 60px;
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login {
+  border: none;
+  border-radius: 40px;
+  height: 25px;
+  width: 70px;
+  background: none;
+  color: aliceblue;
+}
+
+.Create {
+  border: none;
+  border-radius: 40px;
+  height: 25px;
+  width: 120px;
+  cursor: pointer;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+}
+
+button:hover {
+  background-color: brown;
+  transform: scale(1.1);
+  transition: 300ms;
+}
+
+/* kiri */
+.konten-kiri .kotak-kiri {
+  height: 50px;
+  background-color: aqua;
+}

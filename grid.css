@@ -114,9 +114,8 @@ button:hover {
 /* konten kiri */
 
 aside {
-  margin-left: 20px;
-  margin-top: 20px;
-  padding: 10px;
+  margin-left: 10px;
+  padding-left: 10px;
   grid-area: aside;
   /* background-color: aquamarine; */
 }
@@ -160,9 +159,9 @@ p {
 /*  kanan*/
 div > .kanan {
   grid-area: div;
-  padding: 10px;
-  margin-right: 20px;
-  margin-top: 20px;
+  padding-right: 10px;
+  margin-right: 10px;
+
   /* background-color: brown; */
 }
 
@@ -172,14 +171,13 @@ div > .kanan {
   border: 0.5px solid rgba(255, 255, 255, 0.25);
   height: 300px;
   border-radius: 10px;
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 /* end kanan */
 
 /* main */
 main {
-  padding: 10px;
-  margin-top: 20px;
+  padding-top: 10px;
   grid-area: content;
   /* background-color: rgb(46, 15, 223); */
 }
